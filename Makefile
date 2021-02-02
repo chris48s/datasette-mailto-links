@@ -16,4 +16,4 @@ lint:
 	poetry run flake8 .
 
 test:
-	pytest --cov=datasette_mailto_links --cov-report term --cov-report xml ./tests
+	poetry run pytest --cov=datasette_mailto_links --cov-report term --cov-report xml ./tests
