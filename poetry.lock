@@ -152,7 +152,7 @@ python-versions = ">=3.6, <3.7"
 
 [[package]]
 name = "datasette"
-version = "0.54.1"
+version = "0.55"
 description = "An open source multi-tool for exploring and publishing data"
 category = "main"
 optional = false
@@ -178,7 +178,7 @@ uvicorn = ">=0.11,<1.0"
 
 [package.extras]
 docs = ["sphinx-rtd-theme", "sphinx-autobuild"]
-test = ["pytest (>=5.2.2,<6.3.0)", "pytest-asyncio (>=0.10,<0.15)", "beautifulsoup4 (>=4.8.1,<4.10.0)", "black (==20.8b1)", "pytest-timeout (>=1.4.2,<1.5)"]
+test = ["pytest (>=5.2.2,<6.3.0)", "pytest-asyncio (>=0.10,<0.15)", "beautifulsoup4 (>=4.8.1,<4.10.0)", "black (==20.8b1)", "pytest-timeout (>=1.4.2,<1.5)", "trustme (>=0.7,<0.8)"]
 
 [[package]]
 name = "flake8"
@@ -724,8 +724,8 @@ dataclasses = [
     {file = "dataclasses-0.8.tar.gz", hash = "sha256:8479067f342acf957dc82ec415d355ab5edb7e7646b90dc6e2fd1d96ad084c97"},
 ]
 datasette = [
-    {file = "datasette-0.54.1-py3-none-any.whl", hash = "sha256:b4e4d2313c7c973494b4dff8f1a3919a9ce81ac04622f60dfffc426fea35abe2"},
-    {file = "datasette-0.54.1.tar.gz", hash = "sha256:6502838ac784bb7d09264ec8b31b193b2a04cb42547945bb88198423c5352c6a"},
+    {file = "datasette-0.55-py3-none-any.whl", hash = "sha256:f7196e2ac672b4852e21a32b575aa81652dabce6bfc9fd52d410dd5740b87011"},
+    {file = "datasette-0.55.tar.gz", hash = "sha256:524c2efd20d3ed1a033e8b347f7462adbe3e8ebf0c1b1750df61ed27c717a4c4"},
 ]
 flake8 = [
     {file = "flake8-3.8.4-py2.py3-none-any.whl", hash = "sha256:749dbbd6bfd0cf1318af27bf97a14e28e5ff548ef8e5b1566ccfb25a11e7c839"},
