@@ -12,7 +12,7 @@ python = "^3.6"
 datasette = ">0"
 
 [tool.poetry.dev-dependencies]
-isort = "^5.7"
+isort = "^5.8"
 flake8 = "^3.9.0"
 black = { version = "==20.8b1", allow-prereleases = true }
 pytest = "^6.2.2"
