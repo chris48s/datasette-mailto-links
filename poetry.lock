@@ -152,7 +152,7 @@ python-versions = ">=3.6, <3.7"
 
 [[package]]
 name = "datasette"
-version = "0.57"
+version = "0.57.1"
 description = "An open source multi-tool for exploring and publishing data"
 category = "main"
 optional = false
@@ -728,8 +728,8 @@ dataclasses = [
     {file = "dataclasses-0.8.tar.gz", hash = "sha256:8479067f342acf957dc82ec415d355ab5edb7e7646b90dc6e2fd1d96ad084c97"},
 ]
 datasette = [
-    {file = "datasette-0.57-py3-none-any.whl", hash = "sha256:c31f1d361e7f97bc055ee384297a40941b48265f651eaeec6bea9bc1fea67ae7"},
-    {file = "datasette-0.57.tar.gz", hash = "sha256:c35642f1c01ad6c167bd7be4a672c788ea0f64c59a025db28a51ad1063b360ea"},
+    {file = "datasette-0.57.1-py3-none-any.whl", hash = "sha256:fc8e7a779d9b10093ad5710fa6acd35b500fddf40efb6e588cb2bcb0f5ceaa4a"},
+    {file = "datasette-0.57.1.tar.gz", hash = "sha256:f6186329bcbaa89bfd25a99034303fbac57f6248d077ec62ed21782b80622045"},
 ]
 flake8 = [
     {file = "flake8-3.9.2-py2.py3-none-any.whl", hash = "sha256:bf8fd333346d844f616e8d47905ef3a3384edae6b4e9beb0c5101e25e3110907"},
