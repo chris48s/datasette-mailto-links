@@ -1,5 +1,9 @@
 # Changelog
 
+## 📦 [0.2.1](https://pypi.org/project/datasette-mailto-links/0.2.1/) - 2021-10-17
+
+* Remove deprecated jinja calls
+
 ## 📦 [0.2.0](https://pypi.org/project/datasette-mailto-links/0.2.0/) - 2021-10-17
 
 * Dropped testing on python < 3.7
