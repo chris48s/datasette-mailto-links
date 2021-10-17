@@ -1,5 +1,5 @@
-import jinja2
 from datasette import hookimpl
+from markupsafe import Markup, escape
 
 
 def is_email(value):
@@ -31,7 +31,5 @@ def render_cell(value, column, table, database, datasette):
             return None
 
     if is_email(value):
-        return jinja2.Markup(
-            f'<a href="mailto:{jinja2.escape(value)}">{jinja2.escape(value)}</a>'
-        )
+        return Markup(f'<a href="mailto:{escape(value)}">{escape(value)}</a>')
     return None
