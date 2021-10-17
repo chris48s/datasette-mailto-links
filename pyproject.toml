@@ -8,13 +8,13 @@ readme = "README.md"
 repository = "https://github.com/chris48s/datasette-mailto-links"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.7"
 datasette = ">0"
 
 [tool.poetry.dev-dependencies]
-isort = { version = "^5.8", python = "^3.6.2" }
+isort = "^5.8"
 flake8 = "^4.0.1"
-black = { version = "==21.9b0", allow-prereleases = true, python = "^3.6.2" }
+black = { version = "==21.9b0", allow-prereleases = true }
 pytest = "^6.2.5"
 pytest-cov = "^3.0.0"
 
