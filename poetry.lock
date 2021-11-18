@@ -151,7 +151,7 @@ toml = ["tomli"]
 
 [[package]]
 name = "datasette"
-version = "0.59.1"
+version = "0.59.2"
 description = "An open source multi-tool for exploring and publishing data"
 category = "main"
 optional = false
@@ -713,8 +713,8 @@ coverage = [
     {file = "coverage-6.1.2.tar.gz", hash = "sha256:d9a635114b88c0ab462e0355472d00a180a5fbfd8511e7f18e4ac32652e7d972"},
 ]
 datasette = [
-    {file = "datasette-0.59.1-py3-none-any.whl", hash = "sha256:29f493b9cad10b3cbc62c272dd396d0c4e5122bef16b50eab67ac28a7a6a0bc4"},
-    {file = "datasette-0.59.1.tar.gz", hash = "sha256:4e36b411811ce6c853483561c544dfc061bef1e59f183c696c9695b146ccc239"},
+    {file = "datasette-0.59.2-py3-none-any.whl", hash = "sha256:0246d67b0746413149087a44396e05bc5fd61025fc0201575118ad6609f97265"},
+    {file = "datasette-0.59.2.tar.gz", hash = "sha256:09e6413b67f1d3557d69f0e7cc1e7f77e0ef92e81ba92bd9b58ca44b015c1d24"},
 ]
 flake8 = [
     {file = "flake8-4.0.1-py2.py3-none-any.whl", hash = "sha256:479b1304f72536a55948cb40a32dce8bb0ffe3501e26eaf292c7e60eb5e0428d"},
