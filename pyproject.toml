@@ -6,6 +6,9 @@ authors = ["chris48s"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/chris48s/datasette-mailto-links"
+classifiers = [
+    "Framework :: Datasette"
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
