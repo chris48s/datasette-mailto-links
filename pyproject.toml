@@ -17,7 +17,7 @@ datasette = ">0"
 [tool.poetry.dev-dependencies]
 isort = "^5.10"
 flake8 = "^4.0.1"
-black = { version = "==21.12b0", allow-prereleases = true }
+black = { version = "==22.1.0", allow-prereleases = true }
 pytest = "^6.2.5"
 pytest-cov = "^3.0.0"
 
