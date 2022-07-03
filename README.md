@@ -1,6 +1,6 @@
 # datasette-mailto-links
 
-![Run tests](https://github.com/chris48s/datasette-mailto-links/workflows/Run%20tests/badge.svg?branch=main)
+[![Run tests](https://github.com/chris48s/datasette-mailto-links/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/chris48s/datasette-mailto-links/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/chris48s/datasette-mailto-links/branch/main/graph/badge.svg?token=JEUG9Y0ZT3)](https://codecov.io/gh/chris48s/datasette-mailto-links)
 [![PyPI Version](https://img.shields.io/pypi/v/datasette-mailto-links.svg)](https://pypi.org/project/datasette-mailto-links/)
 ![License](https://img.shields.io/pypi/l/datasette-mailto-links.svg)
