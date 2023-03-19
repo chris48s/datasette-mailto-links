@@ -256,14 +256,14 @@ toml = ["tomli"]
 
 [[package]]
 name = "datasette"
-version = "0.64.1"
+version = "0.64.2"
 description = "An open source multi-tool for exploring and publishing data"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "datasette-0.64.1-py3-none-any.whl", hash = "sha256:7253c244ab35b537b2aa5ac239d24fd101af4a46caef11ee06a727b1db4e64ca"},
-    {file = "datasette-0.64.1.tar.gz", hash = "sha256:ca30c37e515400b3ba1b07dfe51093238e33baca75ccf3d163645cf5b3c80fd5"},
+    {file = "datasette-0.64.2-py3-none-any.whl", hash = "sha256:527fc40741d8d0d6c09e660f1151d10ff8fdc42aebaaff4a6be4813e221eb4b2"},
+    {file = "datasette-0.64.2.tar.gz", hash = "sha256:e9e16edbd3af2e11a2f251964fd8d9b7f9e4c4189790bc6c23f0fafa8ee458fc"},
 ]
 
 [package.dependencies]
