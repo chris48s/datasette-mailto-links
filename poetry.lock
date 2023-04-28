@@ -238,14 +238,14 @@ toml = ["tomli"]
 
 [[package]]
 name = "datasette"
-version = "0.64.2"
+version = "0.64.3"
 description = "An open source multi-tool for exploring and publishing data"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "datasette-0.64.2-py3-none-any.whl", hash = "sha256:527fc40741d8d0d6c09e660f1151d10ff8fdc42aebaaff4a6be4813e221eb4b2"},
-    {file = "datasette-0.64.2.tar.gz", hash = "sha256:e9e16edbd3af2e11a2f251964fd8d9b7f9e4c4189790bc6c23f0fafa8ee458fc"},
+    {file = "datasette-0.64.3-py3-none-any.whl", hash = "sha256:5d1e2272c9b5321f4fe158da76c81897dc34ea8daef9633b7232437782026096"},
+    {file = "datasette-0.64.3.tar.gz", hash = "sha256:12ae15cd680d87f76a45ad30ff5b28a1fbf482e480dffdcfcea48be58b7a7c11"},
 ]
 
 [package.dependencies]
@@ -261,8 +261,10 @@ janus = ">=0.6.2"
 Jinja2 = ">=2.10.3"
 mergedeep = ">=1.1.1"
 pint = ">=0.9"
+pip = "*"
 pluggy = ">=1.0"
 PyYAML = ">=5.3"
+setuptools = "*"
 uvicorn = ">=0.11"
 
 [package.extras]
@@ -639,6 +641,18 @@ test = ["pytest", "pytest-cov", "pytest-mpl", "pytest-subtests"]
 uncertainties = ["uncertainties (>=3.0)"]
 
 [[package]]
+name = "pip"
+version = "23.1.2"
+description = "The PyPA recommended tool for installing Python packages."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pip-23.1.2-py3-none-any.whl", hash = "sha256:3ef6ac33239e4027d9a5598a381b9d30880a1477e50039db2eac6e8a8f6d1b18"},
+    {file = "pip-23.1.2.tar.gz", hash = "sha256:0e7c86f486935893c708287b30bd050a36ac827ec7fe5e43fe7cb198dd835fba"},
+]
+
+[[package]]
 name = "platformdirs"
 version = "2.4.0"
 description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
@@ -810,6 +824,23 @@ idna = {version = "*", optional = true, markers = "extra == \"idna2008\""}
 
 [package.extras]
 idna2008 = ["idna"]
+
+[[package]]
+name = "setuptools"
+version = "67.7.2"
+description = "Easily download, build, install, upgrade, and uninstall Python packages"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "setuptools-67.7.2-py3-none-any.whl", hash = "sha256:23aaf86b85ca52ceb801d32703f12d77517b2556af839621c641fca11287952b"},
+    {file = "setuptools-67.7.2.tar.gz", hash = "sha256:f104fa03692a2602fa0fec6c6a9e63b6c8a968de13e17c026957dd1f53d80990"},
+]
+
+[package.extras]
+docs = ["furo", "jaraco.packaging (>=9)", "jaraco.tidelift (>=1.4)", "pygments-github-lexers (==0.0.5)", "rst.linker (>=1.9)", "sphinx (>=3.5)", "sphinx-favicon", "sphinx-hoverxref (<2)", "sphinx-inline-tabs", "sphinx-lint", "sphinx-notfound-page (==0.8.3)", "sphinx-reredirects", "sphinxcontrib-towncrier"]
+testing = ["build[virtualenv]", "filelock (>=3.4.0)", "flake8 (<5)", "flake8-2020", "ini2toml[lite] (>=0.9)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "pip (>=19.1)", "pip-run (>=8.8)", "pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=1.3)", "pytest-flake8", "pytest-mypy (>=0.9.1)", "pytest-perf", "pytest-timeout", "pytest-xdist", "tomli-w (>=1.0.0)", "virtualenv (>=13.0.0)", "wheel"]
+testing-integration = ["build[virtualenv]", "filelock (>=3.4.0)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "pytest", "pytest-enabler", "pytest-xdist", "tomli", "virtualenv (>=13.0.0)", "wheel"]
 
 [[package]]
 name = "six"
