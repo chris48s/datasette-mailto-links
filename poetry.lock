@@ -2,13 +2,13 @@
 
 [[package]]
 name = "aiofiles"
-version = "0.7.0"
+version = "23.2.1"
 description = "File support for asyncio."
 optional = false
-python-versions = ">=3.6,<4.0"
+python-versions = ">=3.7"
 files = [
-    {file = "aiofiles-0.7.0-py3-none-any.whl", hash = "sha256:c67a6823b5f23fcab0a2595a289cec7d8c863ffcb4322fb8cd6b90400aedfdbc"},
-    {file = "aiofiles-0.7.0.tar.gz", hash = "sha256:a1c4fc9b2ff81568c83e21392a82f344ea9d23da906e4f6a52662764545e19d4"},
+    {file = "aiofiles-23.2.1-py3-none-any.whl", hash = "sha256:19297512c647d4b27a2cf7c34caa7e405c0d60b5560618a29a9fe027b18b0107"},
+    {file = "aiofiles-23.2.1.tar.gz", hash = "sha256:84ec2218d8419404abcb9f0c02df3f34c6e0a68ed41072acfb1cef5cbc29051a"},
 ]
 
 [[package]]
@@ -228,13 +228,13 @@ toml = ["tomli"]
 
 [[package]]
 name = "datasette"
-version = "0.64.3"
+version = "0.64.4"
 description = "An open source multi-tool for exploring and publishing data"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "datasette-0.64.3-py3-none-any.whl", hash = "sha256:5d1e2272c9b5321f4fe158da76c81897dc34ea8daef9633b7232437782026096"},
-    {file = "datasette-0.64.3.tar.gz", hash = "sha256:12ae15cd680d87f76a45ad30ff5b28a1fbf482e480dffdcfcea48be58b7a7c11"},
+    {file = "datasette-0.64.4-py3-none-any.whl", hash = "sha256:75b5928d3b2a16f33e3b8ef85efe8a8d5dfbc0bacadb98b4723a008c3e14fb49"},
+    {file = "datasette-0.64.4.tar.gz", hash = "sha256:ef9dbade58f4a3d73e0c745b43219cf9d04b28919571f96affd5675ef8e13cfc"},
 ]
 
 [package.dependencies]
@@ -943,4 +943,4 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=4.6)", "pytest-black (
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "84d68fb8fa661221d22b6f659245f61a7d8c848bad6582a75919e345e71b95d1"
+content-hash = "2c0c1edd1fd0ba68b6a0e3504cdc6d61a602b9e65ddf68b22a2328cb8b028fb0"
