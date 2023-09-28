@@ -1,5 +1,9 @@
 # Changelog
 
+## 📦 0.2.2 - 2021-10-17
+
+* Convert python requirement to open range
+
 ## 📦 0.2.1 - 2021-10-17
 
 * Remove deprecated jinja calls
