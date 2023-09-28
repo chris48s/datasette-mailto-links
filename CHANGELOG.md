@@ -1,6 +1,6 @@
 # Changelog
 
-## 📦 0.2.2 - 2021-10-17
+## 📦 0.2.2 - 2023-09-28
 
 * Convert python requirement to open range
 
