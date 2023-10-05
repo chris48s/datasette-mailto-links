@@ -6,7 +6,7 @@ def is_email(value):
     # This is a pretty lightweight check.
     # If value is a string of the form something@something.something
     # it quacks like an email sufficiently for us
-    if type(value) != str:
+    if not isinstance(value, str):
         return False
     if value.count("@") != 1:
         return False
