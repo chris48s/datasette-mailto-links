@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "datasette-mailto-links"
-version = "0.2.2"
+version = "0.2.3"
 description = "Datasette plugin to render email addresses as mailto: links"
 authors = ["chris48s"]
 license = "MIT"

@@ -1,5 +1,9 @@
 # Changelog
 
+## 📦 0.2.3 - 2023-10-08
+
+* Tested on python 3.12
+
 ## 📦 0.2.2 - 2023-09-28
 
 * Convert python requirement to open range
