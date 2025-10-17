@@ -18,7 +18,7 @@ isort = "^5.11"
 flake8 = "^7.3.0"
 black = "==23.3.0"
 pytest = "^7.4.4"
-pytest-cov = "^4.1.0"
+pytest-cov = "^7.0.0"
 
 [project.urls]
 Home = "https://github.com/chris48s/datasette-mailto-links"
