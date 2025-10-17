@@ -1,5 +1,10 @@
 # Changelog
 
+## 📦 0.3.0 - 2025-10-17
+
+* Dropped testing on python < 3.10
+* Tested on python 3.13, 3.14
+
 ## 📦 0.2.4 - 2023-10-08
 
 * Tested on python 3.12
