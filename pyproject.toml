@@ -1,29 +1,35 @@
-[tool.poetry]
+[project]
 name = "datasette-mailto-links"
 version = "0.2.4"
 description = "Datasette plugin to render email addresses as mailto: links"
-authors = ["chris48s"]
+authors = [{name = "chris48s"}]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/chris48s/datasette-mailto-links"
 classifiers = [
     "Framework :: Datasette"
 ]
+requires-python = ">=3.10"
+dependencies = [
+    "datasette>0"
+]
 
-[tool.poetry.dependencies]
-python = ">=3.7"
-datasette = ">0"
-
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 isort = "^5.11"
-flake8 = { version = "^7.1.1", python = "^3.8.1" }
+flake8 = "^7.1.1"
 black = "==23.3.0"
 pytest = "^7.4.4"
 pytest-cov = "^4.1.0"
 
-[build-system]
-requires = ["poetry>=1.0.2"]
-build-backend = "poetry.core.masonry.api"
+[project.urls]
+Home = "https://github.com/chris48s/datasette-mailto-links"
+Source = "https://github.com/chris48s/datasette-mailto-links"
 
-[tool.poetry.plugins.datasette]
+[tool.poetry]
+requires-poetry = ">=2.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.masonry.api"
+
+[project.entry-points.datasette]
 mailto_links = "datasette_mailto_links"
