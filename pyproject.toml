@@ -1,6 +1,6 @@
 [project]
 name = "datasette-mailto-links"
-version = "0.3.0"
+version = "0.3.1"
 description = "Datasette plugin to render email addresses as mailto: links"
 authors = [{name = "chris48s"}]
 license = "MIT"

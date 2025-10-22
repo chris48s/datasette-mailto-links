@@ -1,5 +1,9 @@
 # Changelog
 
+## 📦 0.3.1 - 2025-10-22
+
+* Fix build build-backend declaration
+
 ## 📦 0.3.0 - 2025-10-17
 
 * Dropped testing on python < 3.10
