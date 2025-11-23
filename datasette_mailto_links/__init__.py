@@ -1,6 +1,8 @@
 from datasette import hookimpl
 from markupsafe import Markup, escape
 
+from .__version__ import __version__  # noqa: F401
+
 
 def is_email(value):
     # This is a pretty lightweight check.
